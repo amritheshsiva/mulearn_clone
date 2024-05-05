@@ -1,0 +1,89 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Custom styles */
+.orange {
+  color: orange;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 20px;
+  width: auto;
+  margin-right: auto; /* Add this line */
+}
+
+nav ul {
+  margin-left: auto;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+nav ul li:hover {
+  color: orange;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  width: 70%;
+}
+
+.footer {
+  background-color: #444343;
+  color: white;
+  padding: 10px 20px;
+}
+
+.footer img {
+  height: 30px;
+  width: auto;
+  display: inline-block;
+}
+
+.footer * {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 15px 5px;
+}
+
+.footer .links,
+.address {
+  width: 50%;
+}
+
+.footer .copy {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer a:hover {
+  color: orange;
+  transition: all 0.5s;
+}
